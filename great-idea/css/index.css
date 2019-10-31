@@ -270,3 +270,20 @@ li{
 	list-style: square;
 	list-style-position: outside;
 }
+
+@media screen and (max-width: 600px) {
+	 .info-card{
+		 width: 100%;
+	 }
+	 .facts{
+		 position: relative;
+		 top: 50vh;
+		 display: flex;
+		 flex-direction: column;
+	 }
+	 .copyright{
+		 position: relative;
+		 top:60vh;
+	}
+	
+}
